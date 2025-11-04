@@ -3,7 +3,7 @@ import { Search } from "lucide-react";
 
 export default function SearchSection() {
   return (
-    <section className="bg-gray-200 text-gray-800 px-6 py-10 flex flex-col items-center text-center">
+    <section className="bg-[#d9d8d3] text-gray-800 px-6 py-10 flex flex-col items-center text-center">
       <h2 className="text-lg md:text-xl font-light max-w-md leading-relaxed">
         Encontre profissionais e contrate serviços para tudo que precisar
       </h2>
