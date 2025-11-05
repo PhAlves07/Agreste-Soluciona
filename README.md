@@ -1,40 +1,58 @@
-<<<<<<< HEAD
-# Agreste Soluciona
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌵 Agreste Soluciona
 
-## Getting Started
+**Agreste Soluciona** é um site criado com o objetivo de **facilitar o dia a dia das pessoas**, conectando **prestadores de serviços** e **usuários que precisam de ajuda** de forma simples, rápida e intuitiva.
 
-First, run the development server:
+A plataforma funciona como uma **rede social de serviços gerais**, onde quem **oferece** e quem **procura** um serviço podem se cadastrar, conversar e combinar os detalhes diretamente, promovendo praticidade e oportunidades para todos.
+
+---
+
+## 🚀 Objetivo do Projeto
+
+O projeto surgiu com a ideia de **aproximar profissionais e clientes** em uma única plataforma.  
+Queremos simplificar o processo de encontrar pessoas qualificadas para serviços como:
+
+- 🔧 Encanadores  
+- 💡 Eletricistas  
+- 🪚 Marceneiros  
+- 🔑 Chaveiros  
+- 🧰 Montadores de móveis  
+- 🚚 Serviços de frete e muito mais!
+
+---
+
+## 🧩 Funcionalidades Principais
+
+- Cadastro de usuários e prestadores de serviço  
+- Sistema de busca e filtragem por tipo de serviço  
+- Perfis personalizados com informações e avaliações  
+- Sistema de mensagens entre usuário e prestador  
+- Interface simples e responsiva  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+*(Exemplo – edite conforme seu projeto usa)*
+
+- **Frontend:** React / Next.js / TypeScript  
+- **Backend:** Node.js / Express  
+- **Banco de Dados:** MongoDB ou MySQL  
+- **Estilização:** Tailwind CSS  
+- **Controle de versão:** Git & GitHub  
+
+---
+
+## 📦 Como Executar o Projeto
 
 ```bash
+# Clone este repositório
+git clone https://github.com/seu-usuario/agreste-soluciona.git
+
+# Acesse a pasta do projeto
+cd agreste-soluciona
+
+# Instale as dependências
+npm install
+
+# Execute o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 85561d6 (primeiro commit)
