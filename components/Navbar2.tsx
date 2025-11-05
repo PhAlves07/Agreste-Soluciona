@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header className="flex items-center justify-between bg-[#bfbfbf] px-6 py-3">
       <div className="flex items-center space-x-2">
-        <Link href="/">
+               <Link href="/">
           <Image
             src="/images/logo.png"
             alt="Logo"
@@ -19,8 +19,8 @@ export default function Navbar() {
       </div>
 
       <div className="flex items-center space-x-6 text-sm font-medium text-black">
-        <a href="/login" className="flex items-center space-x-1 hover:text-orange-500">
-          <User size={18} /> <span>entrar</span>
+               <a href="#" className="flex items-center space-x-1 hover:text-orange-500">
+          <User size={18} /> <span>Usuario</span>
         </a>
         <Menu size={26} className="cursor-pointer text-black" />
       </div>

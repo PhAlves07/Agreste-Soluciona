@@ -3,24 +3,14 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaFacebook, FaGoogle, FaApple } from "react-icons/fa";
-
+import Navbar2 from "@/components/Navbar2";
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
 
   return (
     <div className="min-h-screen bg-[#d9d8d3] flex flex-col">
-      {/* Navbar */}
-      <nav className="flex justify-between items-center bg-[#bfbfbf] px-6 py-2">
-        <div className="flex items-center gap-2">
-          <Image src="/images/logo.png" alt="Logo" width={80} height={80} />
-        </div>
-        <div className="space-y-1 cursor-pointer">
-          <div className="w-8 h-[3px] bg-black rounded"></div>
-          <div className="w-8 h-[3px] bg-black rounded"></div>
-          <div className="w-8 h-[3px] bg-black rounded"></div>
-        </div>
-      </nav>
+      <Navbar2></Navbar2>
 
       {/* Conteúdo principal */}
       <main className="flex flex-col items-center justify-center flex-1 px-6">
