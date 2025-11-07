@@ -1,5 +1,6 @@
 "use client";
 
+import { signIn } from "next-auth/react";
 import Image from "next/image";
 import { useState } from "react";
 import { FaFacebook, FaGoogle, FaApple } from "react-icons/fa";
@@ -57,7 +58,7 @@ export default function LoginPage() {
               <FaFacebook className="text-blue-600 text-lg" />
               Entrar com o Facebook
             </button>
-            <button className="w-full flex items-center justify-center border border-black rounded-full py-2 gap-2 text-black hover:bg-gray-100 transition">
+            <button  onClick={() => signIn("google")} className="w-full flex items-center justify-center border border-black rounded-full py-2 gap-2 text-black hover:bg-gray-100 transition">
               <FaGoogle className="text-orange-400 text-lg" />
               Entrar com o Google
             </button>
