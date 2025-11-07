@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { FaFacebook, FaGoogle, FaApple } from "react-icons/fa";
 import Navbar2 from "@/components/Navbar2";
+import Link from "next/link";
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
@@ -62,16 +63,13 @@ export default function LoginPage() {
               <FaGoogle className="text-orange-400 text-lg" />
               Entrar com o Google
             </button>
-            <button className="w-full flex items-center justify-center border border-black rounded-full py-2 gap-2 text-black hover:bg-gray-100 transition">
-              <FaApple className="text-black text-lg" />
-              Entrar com a Apple
-            </button>
+          
           </div>
-
+          <Link href="/cadastro">
           <button className="w-full bg-orange-400 hover:bg-orange-500 text-white font-semibold py-2 rounded-full mt-6">
             CADASTRAR-SE
           </button>
-
+          </Link>
           <p className="text-xs text-gray-700 mt-4 text-center">
             Li e concordo com a{" "}
             <a href="#" className="text-blue-500 underline">
