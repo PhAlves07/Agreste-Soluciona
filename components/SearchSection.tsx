@@ -1,5 +1,6 @@
 "use client";
 import { Search } from "lucide-react";
+import Link from "next/link";
 
 export default function SearchSection() {
   return (
@@ -17,13 +18,16 @@ export default function SearchSection() {
         <Search className="absolute left-4 top-3 text-gray-400" />
       </div>
 
-      <div className="mt-6">
-        <p className="text-sm mb-2">Quer ser um profissional?</p>
-        <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full font-medium transition flex items-center space-x-2">
-          <span>Clique aqui</span>
-          <span>→</span>
-        </button>
-      </div>
+<div className="mt-6">
+  <p className="text-sm mb-2">Quer ser um profissional?</p>
+
+  <Link href="/cadastro-profissional">
+    <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full font-medium transition flex items-center space-x-2">
+      <span>Clique aqui</span>
+      <span>→</span>
+    </button>
+  </Link>
+</div>
     </section>
   );
 }

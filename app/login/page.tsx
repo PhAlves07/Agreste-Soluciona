@@ -39,14 +39,14 @@ export default function LoginPage() {
             className="w-full text-gray-600 border border-gray-400 rounded-md px-3 py-2 mb-2 focus:outline-none focus:ring-2 focus:ring-orange-400"
           />
 
-          <a href="#" className="text-sm text-orange-500 underline">
+          <a href="/esquecisenha" className="text-sm text-orange-500 underline">
             Esqueci minha senha
           </a>
-
+          <Link href = "/tela-principal">
           <button className="w-full bg-orange-400 hover:bg-orange-500 text-white font-semibold py-2 rounded-full mt-4">
             ACESSAR MINHA CONTA
           </button>
-
+          </Link>
           <div className="flex items-center my-4">
             <hr className="flex-1 border-gray-300" />
             <span className="mx-2 text-gray-500">ou</span>

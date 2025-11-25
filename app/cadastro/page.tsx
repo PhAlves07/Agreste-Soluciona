@@ -85,14 +85,14 @@ export default function LoginPage() {
               {erro}
             </p>
           )}
-
+          <Link href="/tela-principal">
           <button
             type="submit"
             className="w-full bg-orange-400 hover:bg-orange-500 text-white font-semibold py-2 rounded-full mt-4 transition"
           >
             Criar Minha Conta
           </button>
-
+          </Link>
           <div className="flex items-center my-4">
             <hr className="flex-1 border-gray-300" />
             <span className="mx-2 text-gray-500">ou</span>
