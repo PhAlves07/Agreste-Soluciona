@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useRef } from "react";
+import Link from "next/link";
 
 const services = [
   { src: "/images/serv1.png", alt: "Pedreiro" },
@@ -53,7 +54,7 @@ export default function ServicesCarousel() {
       <h3 className="text-black text-2xl font-semibold text-center mb-6">
         Top Serviços requisitados
       </h3>
-
+      <Link href="/servico-exemplo">
       <div
         ref={scrollRef}
         className="flex overflow-x-auto space-x-4 scrollbar-hide cursor-grab scroll-smooth select-none"
@@ -75,8 +76,10 @@ export default function ServicesCarousel() {
               className="object-cover w-full h-full"
             />
           </div>
+         
         ))}
       </div>
+      </Link>
     </section>
   );
 }
