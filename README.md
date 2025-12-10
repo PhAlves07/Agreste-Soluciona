@@ -54,5 +54,5 @@ cd agreste-soluciona
 # Instale as dependências
 npm install
 
-# Execute o servidor de desenvolvimento
+# Execute o servidor de desenvolvimentoo
 npm run dev
