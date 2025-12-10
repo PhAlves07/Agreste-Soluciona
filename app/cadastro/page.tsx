@@ -13,7 +13,7 @@ export default function LoginPage() {
   const [confirmarSenha, setConfirmarSenha] = useState("");
   const [erro, setErro] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!usuario || !email || !senha || !confirmarSenha) {
