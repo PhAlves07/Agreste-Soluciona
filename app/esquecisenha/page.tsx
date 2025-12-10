@@ -14,7 +14,7 @@ export default function LoginPage() {
     <div className="min-h-screen bg-[#d9d8d3] flex flex-col">
       <Navbar2></Navbar2>
 
-      {/* Conteúdo principal */}
+    
       <main className="flex flex-col items-center justify-center flex-1 px-6">
         <h2 className="text-3xl font-semibold text-orange-500 mb-8 text-center">
           Redefinir Senha

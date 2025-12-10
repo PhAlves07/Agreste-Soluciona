@@ -27,7 +27,7 @@ export default function LoginPage() {
     }
 
     setErro("");
-    // Aqui você pode enviar os dados para a API, banco de dados, etc.
+
     console.log("Cadastro realizado com sucesso:", { usuario, email, senha });
   };
 

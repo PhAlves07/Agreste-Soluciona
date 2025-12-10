@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 export default function CadastroPrestador() {
 
-  const router = useRouter(); // ✅ para redirecionar
+  const router = useRouter(); 
 
   const [form, setForm] = useState({
     usuario: "",
@@ -25,32 +25,31 @@ export default function CadastroPrestador() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Aqui você pode enviar para API futuramente
     console.log("Dados enviados:", form);
 
-    // ⚠️ Verificação simples (opcional)
+   
     if (form.senha !== form.confirmarSenha) {
       alert("As senhas não coincidem!");
       return;
     }
 
-    // ✅ Alerta de sucesso
+   
     alert("Cadastro realizado com sucesso!");
 
-    // ✅ Redireciona para a página inicial
+  
     router.push("/tela-principal");
   };
   return (
     <div className="min-h-screen bg-[#d8d6d1]">
 
-      {/* Navbar ocupa 100% da tela */}
+      
       <Navbar />
 
-      {/* Conteúdo centralizado */}
+      
       <div className="flex flex-col items-center mt-12">
         <div className="w-full max-w-5xl px-6 flex justify-between">
 
-          {/* Lado esquerdo */}
+          
           <div className="flex flex-col items-center text-center w-1/2">
             <div className="w-40 h-40 rounded-full bg-[#cfcfcf] flex items-center justify-center">
               <Image
@@ -66,7 +65,7 @@ export default function CadastroPrestador() {
             </h2>
           </div>
 
-          {/* Formulário */}
+       
           <form
             onSubmit={handleSubmit}
             className="flex flex-col text-black w-1/2 space-y-3"

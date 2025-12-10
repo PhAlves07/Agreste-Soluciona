@@ -14,7 +14,7 @@ export default function LoginPage() {
     <div className="min-h-screen bg-[#d9d8d3] flex flex-col">
       <Navbar2></Navbar2>
 
-      {/* Conteúdo principal */}
+    
       <main className="flex flex-col items-center justify-center flex-1 px-6">
         <h2 className="text-3xl font-semibold text-orange-500 mb-8 text-center">
           Faça seu login ou cadastre-se
@@ -53,7 +53,7 @@ export default function LoginPage() {
             <hr className="flex-1 border-gray-300" />
           </div>
 
-          {/* Botões sociais */}
+          
           <div className="space-y-3">
             <button className="w-full flex items-center justify-center border border-blue-400 rounded-full py-2 gap-2 text-blue-500 hover:bg-blue-50 transition">
               <FaFacebook className="text-blue-600 text-lg" />

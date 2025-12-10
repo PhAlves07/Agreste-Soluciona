@@ -9,7 +9,7 @@ export default function Configuracoes() {
 
   return (
     <div className="min-h-screen bg-[#d8d6d1]">
-      {/* NAVBAR fora do container central */}
+      
       <Navbar2 />
 
       <div className="max-w-2xl mx-auto bg-gray-100 mt-10 rounded-xl shadow-md p-8">
@@ -20,13 +20,11 @@ export default function Configuracoes() {
 
         <div className="space-y-7">
 
-          {/* Perfil */}
           <button className="w-full text-black flex items-center gap-4 p-4 bg-white rounded-xl shadow hover:bg-gray-50 transition">
             <User size={32} className="text-orange-500" />
             <span className="text-lg font-medium">Perfil</span>
           </button>
 
-          {/* Notificações */}
           <button
             onClick={() => setNotificacoesAtivas(!notificacoesAtivas)}
             className="w-full flex items-center gap-4 p-4 bg-white rounded-xl shadow hover:bg-gray-50 transition text-black "
@@ -49,13 +47,12 @@ export default function Configuracoes() {
             </div>
           </button>
 
-          {/* Segurança */}
           <button className="w-full flex items-center gap-4 p-4 bg-white rounded-xl shadow hover:bg-gray-50 transition">
             <Lock size={32} className="text-orange-500" />
             <span className="text-lg text-black font-medium">Segurança</span>
           </button>
 
-          {/* Ajuda */}
+     
           <button className="w-full flex items-center gap-4 p-4 bg-white rounded-xl shadow hover:bg-gray-50 transition">
             <HelpCircle size={32} className="text-orange-500" />
             <span className="text-lg text-black font-medium">Ajuda</span>

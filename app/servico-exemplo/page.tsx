@@ -34,7 +34,7 @@ export default function MontadorMoveis() {
       <Navbar2 />
 
       <div className="max-w-xl mx-auto mt-14 p-6 text-center">
-        {/* Etapa 1: Selecionar Categoria */}
+       
         {!categoriaSelecionada && (
           <>
             <h1 className="text-xl font-semibold leading-tight">
@@ -69,7 +69,7 @@ export default function MontadorMoveis() {
           </>
         )}
 
-        {/* Etapa 2: Selecionar Subcategoria */}
+       
         {categoriaSelecionada && !subcategoriaSelecionada && subOpcoes[categoriaSelecionada] && (
           <>
             <h1 className="text-xl font-semibold mb-8">{categoriaSelecionada}</h1>
@@ -96,7 +96,6 @@ export default function MontadorMoveis() {
           </>
         )}
 
-        {/* Etapa 3: Formulário */}
         {(subcategoriaSelecionada || (categoriaSelecionada && !subOpcoes[categoriaSelecionada])) && (
           <div className="max-w-xl mx-auto mt-12 bg-white p-6 rounded-xl shadow-md text-left">
             <h2 className="text-xl font-semibold mb-6 text-center">Finalizar Solicitação</h2>
