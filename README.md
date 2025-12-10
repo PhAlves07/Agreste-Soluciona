@@ -43,7 +43,7 @@ Queremos simplificar o processo de encontrar pessoas qualificadas para serviços
 ---
 
 ## 📦 Como Executar o Projeto
-
+https://agreste-soluciona-xczm-git-ver-dd8fc4-phzinns-projects-1941b62d.vercel.app?_vercel_share=OwRRJMG1GbqlLXAwEj6L6wqHANo9jGA3
 ```bash
 # Clone este repositório
 git clone https://github.com/seu-usuario/agreste-soluciona.git
